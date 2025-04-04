@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class Hindex{
+public class HindexOptimized{
     public static int[] reverseSort(int[] arr){
         int length = arr.length;
         int[] descArr = new int[length];
@@ -21,7 +21,7 @@ public class Hindex{
     }
 
     public static void main(String[] args){
-        int[] citations = {3,0,6,1,5};
+        int[] citations = {2,6,5};
         int[] descCitations = reverseSort(citations);
         int h_index = hindex(descCitations);
 //        System.out.println(Arrays.toString(descCitations));
