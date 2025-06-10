@@ -1,1 +1,1 @@
-This folder contains my codes, (which may be completely wrong/give time complexity of an eternity)
+This folder contains the codes I wrote myself while trying, (which may be completely wrong/give time complexity of an eternity)
