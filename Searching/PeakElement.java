@@ -1,4 +1,4 @@
-package Trials.Searching;
+package Searching;
 
 public class PeakElement {
 
