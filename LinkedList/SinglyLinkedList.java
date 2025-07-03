@@ -1,3 +1,8 @@
+// Given the head of a singly linked list, reverse the list, and return the reversed list.
+
+// Input: head = [1,2,3,4]
+// Output: [4,3,2,1]
+
 package LinkedList;
 
 class Node{
@@ -12,10 +17,10 @@ class Node{
 
 public class SinglyLinkedList {
 
-    public Node head;
+    public static Node head;
 
     public  SinglyLinkedList(){
-        this.head = null;
+        head = null;
     }
 
     public void insert(int data){
