@@ -19,25 +19,25 @@ public class CountSort {
         }
 
         int count[] = new int[max+1];
-        int start[] = new int[max+1];
+        int prefixSum[] = new int[max+1];
 
         for(int i=0 ;i<arr.length; i++){
             count[arr[i]]++;
         }
 
-        // System.out.println(Arrays.toString(count));
+        System.out.println(Arrays.toString(count));
 
-         start[0] = count[0];  
+         prefixSum[0] = count[0];  
         for(int j=1; j<count.length; j++){
-            start[j] = count[j] + start[j-1];
+            prefixSum[j] = count[j] + prefixSum[j-1];
         }
 
-        // System.out.println(Arrays.toString(start));
+        System.out.println(Arrays.toString(prefixSum));
 
         int[] result = new int[arr.length];
 
         for(int k=arr.length-1; k>=0; k--){
-            result[--start[arr[k]]] = arr[k];
+            result[--prefixSum[arr[k]]] = arr[k];
         }
 
         return result;
