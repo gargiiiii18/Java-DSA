@@ -78,8 +78,8 @@ public class IceCreamBars {
         return noOfBars;
     }
     public static void main(String[] args) {
-        int[] costs = {1,6,3,1,2,5};
-        int coins = 20;
+        int[] costs = {3,2,4,1};
+        int coins = ;
         int noOfBars = countBars(costs, coins);
         System.out.println(noOfBars);
     }
