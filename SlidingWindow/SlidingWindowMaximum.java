@@ -1,4 +1,4 @@
-package Trials.SlidingWindow;
+package SlidingWindow;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
