@@ -32,7 +32,7 @@ public class QueueUsingArray {
                 start = -1;
                 end = -1;
             } else{
-                start = (start+1)%currSize;
+                start = (start+1) % queue.length;
             }
             currSize--;
             // System.out.println(queue[start]);
