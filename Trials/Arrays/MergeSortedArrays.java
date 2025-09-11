@@ -3,7 +3,6 @@ package Trials.Arrays;
 import java.util.Arrays;
 
 public class MergeSortedArrays {
-
     public static void mergeArrays(int[] nums1, int[] nums2, int m, int n){
         int i = m-1;
         int j = n-1;
