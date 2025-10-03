@@ -20,7 +20,6 @@ public class BinaryTreeDepth {
         int rightDepth = calculateDepth(root.right);
 
         return Math.max(leftDepth, rightDepth)+1;
-
     }
 
     public static void main(String[] args) {
